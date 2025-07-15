@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+}
+
+#schedule div,
+#hourList div {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.booked {
+  background-color: #ffd1d1;
+}
+
+.available {
+  background-color: #d1ffd1;
+}
